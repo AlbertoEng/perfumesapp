@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloApp{
+  padding: 10px 20px;
+}
+
+.header {
+  background-color: rgb(20, 20, 20);
+  color: white;
+
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+
+.lista li{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+.lista li:hover{
+  background-color: rgb(47, 47, 47);
+  transition: 0.3s;
+  color: rgb(45, 125, 238);
+  
+}
+
+.lista a {
+  color: white;
+  text-decoration: none;
+}
+
+.containerCarrito{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.cantProductos {
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  width: 1.5rem;
+}
+
+.carrito{
+  width: 20px;
+  height: 20px;
+  color: rgb(233, 233, 233); 
+  display: inline-block;
+}
+
+.itemListContainer{
+  background-color: white;
+  height: 100%;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imgContainer{
+  width: 100%;
+  height: 300px;
+}
+
+.perfume{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.product{
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(94, 94, 94, 0.22);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.titulo--product{
+  margin-bottom: 20px
+}
+
+.datosPerfume{
+  padding: 10px;
+  font-weight: normal;
+}
+
+.botonComprar{
+  padding: 0.5rem 1rem;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: rgb(36, 141, 228);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btnComprarContainer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
