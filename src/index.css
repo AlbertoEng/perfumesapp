@@ -130,6 +130,11 @@
   justify-content: center;
 }
 
+.precio{
+  font-size: 20px;
+  margin: 10px 0px;
+}
 
-
-
+.valorPrecio{
+  font-weight: bold;
+}
