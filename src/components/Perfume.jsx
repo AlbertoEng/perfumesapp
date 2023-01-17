@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Perfume = ({ src, nombre, descripcion, precio }) => {
+const Perfume = ({ src, nombre, descripcion, precio, state, setState}) => {
+
   return (
     <div className='product'>
         <div className='imgContainer'>
@@ -12,9 +13,9 @@ const Perfume = ({ src, nombre, descripcion, precio }) => {
             <p className='descripcion-perfume'>{ descripcion }</p>
             <p className='precio'>Precio: <span className='valorPrecio'>${precio}</span></p>
             <div className='btnComprarContainer'>
-                <Link className='btn btn-outline-light text-primary' to={'/carrito'}>
+                <button className='btn btn-outline-light text-primary' to={'/carrito'}>
                   Agregar al carrito
-                </Link>
+                </button>
                 <button className='btn btn-primary'>Comprar</button>
             </div>
         </div>

@@ -2,15 +2,14 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-const Producto = () => {
+const ItemDetailsContainer = () => {
 
     const [producto, setProducto] = useState({})
 
     const params = useParams();
     const obtenerproducto = async ()=>{
-        const productoSelect = await axios.get(`http://localhost:3000/productos/${params.productoId}`);
+        const productoSelect = await axios.get(`http://localhost:3000/items/${params.id}`);
         setProducto(productoSelect.data)
-
     }
   
     useEffect(()=>{
@@ -34,7 +33,9 @@ const Producto = () => {
                             <button className='btn btn-primary botonComprar'>Comprar</button>
                         </div>
                     </div>
-                : <h2>no hay nada</h2>
+                :   <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
                 
             }
 
@@ -42,4 +43,4 @@ const Producto = () => {
     )
 }
 
-export default Producto
+export default ItemDetailsContainer
