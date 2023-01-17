@@ -30,7 +30,7 @@ const Producto = () => {
                                 {`${producto.descripcion}`}
                             </p>
                             <h2 className='precioProducto'>Price: $<span>{`${producto.precio} MXN`}</span></h2>
-                            <button className='btn btn-outline-light text-primary botonAgregarCarrito'>Agregar al carrito</button>
+                            <button className='btn btn-outline-light text-primary botonAgregarCarrito'>Agregar a carrito</button>
                             <button className='btn btn-primary botonComprar'>Comprar</button>
                         </div>
                     </div>
