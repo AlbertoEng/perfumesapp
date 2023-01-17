@@ -1,17 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Perfume = () => {
+const Perfume = ({ src, nombre, descripcion, precio }) => {
   return (
     <div className='product'>
         <div className='imgContainer'>
-            <img className='perfume' src="imgs/one.webp" alt="" />
+            <img className='perfume' src={src} alt="" />
         </div>
         <div className='datosPerfume'>
-            <h2 className='titulo--product'>Calvin Klein</h2>
-            <p>Aroma delicado por periodos largos de tiempo.</p>
-            <p className='precio'>Precio: <span className='valorPrecio'>$1000</span></p>
+            <h2 className='titulo--product'>{nombre}</h2>
+            <p className='descripcion-perfume'>{ descripcion }</p>
+            <p className='precio'>Precio: <span className='valorPrecio'>${precio}</span></p>
             <div className='btnComprarContainer'>
-                <button className='botonComprar'>Comprar</button>
+                <Link className='btn btn-outline-light text-primary' to={'/carrito'}>
+                  Agregar al carrito
+                </Link>
+                <button className='btn btn-primary'>Comprar</button>
             </div>
         </div>
         

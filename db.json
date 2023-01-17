@@ -1,0 +1,46 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Dolce & Gabbana Light Blue",
+            "descripcion": "Como el horizonte visto desde el mar, ese azul donde la vida parece infinita... Dolce & Gabbana Light Blue fusiona flores y frutas mediterráneas para dar origen a una inigualable fragancia.",
+            "precio": 2599,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7857832-1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Perfume Paco Rabanne One Million",
+            "descripcion": "La fragancia tiene un aroma cálido pero intenso que evoca notas maderadas para esos hombres elegantes y conquistadores. Las notas sobresalientes son: canela, cuero, ámbar, notas especiadas, notas maderadas y rosas, con menta, naranja y toronja de fondo. La combinación de esta fragancia es una explosión dulce y embriagante para tus sentidos.",
+            "precio": 1599,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7160692-1.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Perfume Givenchy Hot Couture",
+            "descripcion": "La fragancia pertenece a  la familia olfativa floral para mujeres, debido a que posee notas de frambuesa, naranja y bergamota, pimienta, vetiver y magnolia, que la hacen tener un aroma exquisito. Viene en una presentación de 100 ml, para que puedas usarla todos los días.",
+            "precio": 1949,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7368422-1.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Perfume Lacoste L.12.12",
+            "descripcion": "Se trata de una fragancia de la familia olfativa floral frutal de tipo eau de toilette. Viene en una presentación de 90 ml, en un frasco verde. Sus acordes principales son dulce, afrutado, coco, tropical, amaderado, cítrico, atalcado, fresco y lactónico",
+            "precio": 1599,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7393022-1.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Perfume Carolina Herrera CH",
+            "descripcion": "Para usar de día, en una mujer decidida y confiada. Cuenta con notas cítricas de pomelo y bergamota, también con aromas florales de rosa búlgara y jazmín sambac, mientras que al final encuentras notas de pachulí y praliné. Viene en una presentación de 50 ml y con un difusor en spray para aplicarlo suavemente.",
+            "precio": 1899,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7160632-1.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Perfume Hugo Boss The Scent",
+            "descripcion": "El jengibre resalta a la salida, que se desvanece entre las notas de corazón de lavanda y maninka. En unas cuantas horas queda una deliciosa estela a cuero, que sientes en tu piel y seguro agrada a las damas.",
+            "precio": 2459,
+            "imagen": "https://cdn1.coppel.com/images/catalog/pr/7010052-1.jpg"
+        }
+    ]
+}
